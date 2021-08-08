@@ -1,0 +1,19 @@
+//abstracts
+@import "abstracts/variables";
+
+//vendors
+@import "vendors/bootstrap4.6/bootstrap.scss";
+
+//base
+@import "base/reset";
+
+//components
+@import "components/buttons";
+
+//layout
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/autor";
+
+
+

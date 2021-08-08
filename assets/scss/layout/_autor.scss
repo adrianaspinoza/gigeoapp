@@ -1,0 +1,27 @@
+.autor{
+    padding-top: 30px;
+    margin: 0;
+    &__avatar{
+        background-image:url('../img/profile-image.png');
+        background-size: cover;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+
+    &__seguidores{
+        color: $granitegray;
+        font-weight: $lightgray;
+    }
+
+    &__autor__buttons{
+        text-align: right;
+    }
+    &__hr{
+        border-top: 1px solid $lightgray;
+    }
+    &__info{
+        font-weight: $roboto-medium;
+        font-size: $font-xx-large;
+    }
+}
